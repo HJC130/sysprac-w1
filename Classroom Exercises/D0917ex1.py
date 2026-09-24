@@ -1,0 +1,11 @@
+sensor_id="TEMP-01"
+temperature=25.3
+count=8
+reading="30.5"
+print(sensor_id)
+print(temperature)
+print(count)
+print(type(sensor_id))
+print(type(temperature))
+print(type(count))
+print(float(reading)+0.5)
